@@ -1,0 +1,15 @@
+{
+  "name": "aws-project-test",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 127.0.0.1",
+    "server": "node --env-file-if-exists=.env backend/server.js",
+    "build": "vite build",
+    "start": "node --env-file-if-exists=.env backend/server.js"
+  },
+  "dependencies": { "react": "^19.2.0", "react-dom": "^19.2.0" },
+  "devDependencies": { "vite": "^7.1.0" },
+  "engines": { "node": ">=22.12.0" }
+}
